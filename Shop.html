@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCarry</title>
+<link rel="icon" href="./ec.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="Shop.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="Shop.js" async></script>
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customer Service</a>
+              </li>
+            </ul>
+              <ul class="navbar-nav mb-2 mb-lg-0 cart">
+              <li>
+                <input class="lart" type="image" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" src="./cart.png" width="30px" height="30px">
+                <span class="badge">0</span> 
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                  <div class="offcanvas-header offcanvass">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QTY</span>
+                            </div>
+                    <div class="cart-items">
+                     
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">$0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                  </div>
+                </div>
+                
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<section class="welcome">
+    <h1>Welcome to eCarry, our computer accessories online shop</h1>
+    <img src="https://5.imimg.com/data5/AD/EQ/IR/SELLER-11872872/keyboard-mouse-printer-computer-accessories-500x500.png">
+</section>
+
+
+<section class="products">
+<h3>Our products</h3>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'mice') ; scrollWin()">Mice</button>
+  <button class="tablinks" onclick="openCity(event, 'key') ; scrollWin()">Keyboards</button>
+  <button class="tablinks" onclick="openCity(event, 'hp') ; scrollWin()">Headsets</button>
+  <button class="tablinks" onclick="openCity(event, 'cam') ; scrollWin()">Webcams</button>
+</div>
+
+<div id="mice" class="tabcontent">
+  <div class="items">
+    <div class="card" style="width: 18rem;">
+        <img class="item-im" src="https://cdn.cnetcontent.com/27/f5/27f5cb85-45f9-4686-8145-512a6546d090.jpg" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title">Logitech M510</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$25.99</span> <br>
+          <button class="btn btn-warning additem">Add to cart</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="item-im" src="https://cdn.cnetcontent.com/47/4f/474f7f8e-cac0-4dba-b86f-c17ef91b1492.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Logitech Wireless Trackball</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$39.99</span> <br>
+ <button class="btn btn-warning additem">Add to cart</button>        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="item-im" src="https://cdn.cnetcontent.com/73/d0/73d09a97-fb94-4099-bf83-a5e1de6f9465.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Microsoft Surface Mouse</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$49.99</span> <br>
+ <button class="btn btn-warning additem">Add to cart</button>        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="item-im" src="https://cdn.cnetcontent.com/00/7a/007a32f0-a97f-4a53-804c-4285dc4e0bd9.jpg" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title">Microsoft Basic Optical Mouse</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$9.99</span> <br>
+ <button class="btn btn-warning additem">Add to cart</button>        </div>
+      </div>
+  </div>
+</div>
+
+<div id="key" class="tabcontent">
+    <div class="items">
+        <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/12/80/1280515a-517a-406c-afa5-a63ae520c983.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title"> Logitech WirelessKeyboard K400+</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$43.89  </span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/fb/6d/fb6df86f-1d2c-475b-977a-1c5aafac26de.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Logitech Wireless Keyboard K360</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$19.89</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/16/37/1637a61a-26f5-4678-8663-2a7e54285f72.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Logitech Wireless Keyboard K350</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$48.99</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/73/5b/735bbbe6-1b98-4f8f-a6eb-f14f31f83bfe.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Microsoft Ergonomic Keyboard</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$57.99</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+      </div>
+
+</div>
+
+<div id="hp" class="tabcontent">
+    <div class="items">
+        <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/fe/c3/fec3798d-bd15-453d-87d0-0c514421ffb5.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Logitech USB Headset H390</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$29.99</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/ec/61/ec61033a-136c-4e38-9205-ac7715bc4d89.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Logitech USB Headset H340</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$23.89</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/ea/ad/eaad1434-d871-4e2d-b8cc-e9f41f07a03f.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Apple AirPods Pro</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$224.99</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/99/23/9923db4a-4c2b-4a19-997d-d965d6065498.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Jabra Evolve 75 MS Stereo</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$293.99</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+      </div>
+</div>
+<div id="cam" class="tabcontent">
+    <div class="items">
+        <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/34/5f/345f0531-b195-4e38-a010-e7bb865773b3.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Azulle - web camera</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$64.49</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/8a/fa/8afa09c9-f558-4c91-b86a-0196f13ffdae.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">AVerMedia PW315</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$136.89</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/f5/95/f5955b2f-23a8-4ed2-a4e9-3221119c32ea.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Cisco TelePresence PrecisionHD</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$217.48</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="item-im" src="https://cdn.cnetcontent.com/07/a0/07a01b14-185f-4f6c-a949-9f554470eb9b.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Aluratek AWC01F</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <span class="pr">$68.98</span> <br>
+     <button class="btn btn-warning additem">Add to cart</button>            </div>
+          </div>
+      </div>
+  </div>
+
+
+</section>
+
+
+
+<footer>
+  <div class="foo">
+    <p>© 2021 electronic Carry. All rights reserved</p>
+    <a href="#top"><img src="./back.png" height="30px" width="30px"></a>
+  </div>
+</footer>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

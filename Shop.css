@@ -1,0 +1,253 @@
+.container-fluid{
+    width: 70%;
+}
+.badge {
+    border-radius: 50%;
+    background-color: orange;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-top: 30px;
+  }
+
+  .items{
+      display: flex;
+  }
+.card{
+  justify-content: space-between;
+}
+  .card img{
+    object-fit: fill;
+  }
+  
+  
+  .items{
+   justify-content: center;
+  }
+
+  .nav-link{ margin: 0px 20px;}
+
+  .welcome {
+  background-image: linear-gradient(to right bottom, #80e9ff, #a0eeff, #bbf3fe, #d4f8ff, #ecfcff);  margin-top: 25px;
+display: flex;
+flex-flow: column wrap;
+width: 66%;
+margin: 10px auto;
+border-radius: 10px;
+padding: 20px 5px;
+}
+  .welcome h1 {
+    
+    font-family: sans-serif;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+
+  }
+  .welcome img {
+    margin: 10px auto;
+  }
+
+  .products {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 20px 0;
+  }
+.card-body{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items:center ;
+  justify-content: center;
+}
+.card-body button {
+  width: 150px;
+  border-radius: 30px;
+}
+.card-body span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-body h5{
+  height: 50px;
+}
+.card-body p {
+  margin-top: 10px;
+}
+
+.foo{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-size:080%;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.0em;
+  color: #333;
+  justify-content: center;
+}
+
+.cart-quantity{
+ justify-content: left;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cart-item {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.0em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.offcanvas-header {
+  justify-content: flex-end;
+}
+
+.offcanvas{
+  width: 60%;
+  height: 80%;
+ margin: 0px auto;
+
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto;
+  font-size: 1.2em;
+}
+
+.fa-heart-o {
+  margin-right: 20px;
+margin-left: 20px;
+cursor: pointer;
+}
+
+
+.fa-heart {
+  margin-right: 20px;
+  margin-left: 20px;
+ color: red;
+ cursor: pointer;
+}
+
+.section-header{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: darkorange;
+}
